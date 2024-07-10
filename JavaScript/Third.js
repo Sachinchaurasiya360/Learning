@@ -28,8 +28,31 @@
 //     console.log(a);
 // }
 
-for(var i=0;i<5;i++){
-    for(var j=0;j<i;j++){
-        process.stdout.write("*");
+
+// for (var i = 5; i > 0; i--) {
+//     for (var j = 0; j < i; j++) {
+//         process.stdout.write(" * ");
+//     }
+//     process.stdout.write("\n");
+// }
+
+
+const rows = 5;
+
+// first loop is for printing the rows
+for (let i = 0; i < rows; i++) {
+
+    // loop for printing leading whitespaces
+    let spaces = '';
+    for (let j = 0; j < 2 * (rows - i) - 1; j++) {
+        spaces += ' ';
     }
+
+    // loop for printing * character
+    let stars = '';
+    for (let k = 0; k <= i; k++) {
+        stars += '* ';
+    }
+
+    console.log(spaces + stars);
 }
