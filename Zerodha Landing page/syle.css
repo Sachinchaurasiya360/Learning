@@ -1,4 +1,35 @@
-#quote{
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 5px 5px rgb(248, 246, 246);
+    
+
+
+}
+
+#logo img {
+    width: 150px;
+    height: 25px;
+    padding-left: 60px;
+    padding-top: 20px;
+}
+
+#options {
+    display: flex;
+    justify-content: space-evenly; /* Distribute items with equal space around them */
+    flex-grow: 1; /* Allow #options to take remaining space */
+    padding-top: 10px;
+    padding-left: 500px;
+}
+ 
+#picture{
+    display: flex;
     justify-content: center;
-    background-color: black;
+    
+}
+#picture img{
+    width: 70%;
+    height: 70%;
+    padding-top: 50px   ;
 }
