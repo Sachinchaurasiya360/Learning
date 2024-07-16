@@ -1,94 +1,116 @@
 header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    box-shadow: 5px 5px rgb(248, 246, 246);
-    
-
-
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 5px 5px rgb(248, 246, 246);
 }
 
 #logo img {
-    width: 150px;
-    height: 25px;
-    padding-left: 60px;
-    padding-top: 20px;
+  width: 150px;
+  height: 25px;
+  padding-left: 60px;
+  padding-top: 20px;
 }
 
 #options {
-    display: flex;
-    justify-content: space-evenly; /* Distribute items with equal space around them */
-    flex-grow: 1; /* Allow #options to take remaining space */
-    padding-top: 10px;
-    padding-left: 500px;
-    cursor: pointer;
-
-}
- 
-#picture{
-    display: flex;
-    justify-content: center;
-    
-}
-#picture img{
-    width: 60%;
-    height: 70%;
-    padding-top: 50px   ;
-}
-#content{
-    display: flex;
-    justify-content: center;
-    font-weight: 100px;
-}
-#content2 h2{
-    display: flex;
-    justify-content: center;
-
+  display: flex;
+  justify-content: space-evenly; /* Distribute items with equal space around them */
+  flex-grow: 1; /* Allow #options to take remaining space */
+  padding-top: 10px;
+  padding-left: 500px;
+  cursor: pointer;
 }
 
-#Signup{
-    text-align: center;
+#picture {
+  display: flex;
+  justify-content: center;
+}
+#picture img {
+  width: 60%;
+  height: 70%;
+  padding-top: 50px;
+}
+#content {
+  display: flex;
+  justify-content: center;
+  font-weight: 100px;
+}
+#content2 h2 {
+  display: flex;
+  justify-content: center;
 }
 
-#Signup h3{
-    display: inline-block;
-    justify-content: center;
-    padding: 15px 40px 15px 40px;
-    background-color: #0c2b46;
-    color: white;
-    border-radius: 20px;
-    cursor: pointer;
-  }
-
-#broker{
-    display: flex;
-    justify-content: space-evenly;
-    font-size: large;
-    margin-left: 200px;
-    margin-right: 200px;
-    padding-top: 100px;
-
-}
-#broker img{
-    width: 30%;
-    height: 30%;
-}
-#space{
-    display: flex;
-    justify-content: space-between;
-    
+#Signup {
+  text-align: center;
 }
 
-#broker2{
-    padding-left: 200px;
+#Signup h3 {
+  display: inline-block;
+  justify-content: center;
+  padding: 15px 40px 15px 40px;
+  background-color: #0c2b46;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+}
 
+#broker {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: large;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding-top: 100px;
 }
-h2{
-    font-size: 30px;
-    font-weight: 200;
-    
+#broker img {
+  width: 30%;
+  height: 30%;
 }
-#press-logo img{
-    display: flex;
-    width: 100%;
+#space {
+  display: flex;
+  justify-content: space-between;
+}
+
+#broker2 {
+  padding-left: 200px;
+}
+h2 {
+  font-size: 30px;
+  font-weight: 200;
+}
+#press-logo img {
+  display: flex;
+  width: 100%;
+}
+
+#ecosystem img {
+  display: flex;
+  justify-content: right;
+  width: 70%;
+  background-color: violet;
+}
+
+#ecosystem {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+#brokerage {
+  display: flex;
+  justify-content: space-evenly;
+}
+#text {
+  padding-left: 130px;
+  padding-top: 100px;
+  justify-content: space-evenly;
+}
+
+#text h3 {
+  padding-top: 15px;
+}
+
+#last h2,h3,p{
+  display: flex;
+  justify-content: center;
 }

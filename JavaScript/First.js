@@ -9,3 +9,9 @@ console.log("Hello, world!");
 console.log(name);
 console.log(age);
 console.log(isApproved);
+
+
+let a='4';
+let b=5;
+let c=a+b;
+console.log(c);
