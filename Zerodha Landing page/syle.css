@@ -106,18 +106,40 @@ h2 {
   justify-content: space-evenly;
 }
 
-#text h3 {
-  padding-top: 15px;
+#last {
+  display: flex;
+  justify-content: center;
+  padding-top: 0px;
 }
 
-#last h2,h3,p{
+#para {
   display: flex;
   justify-content: center;
 }
-#buttons{
+
+#Buttons {
   display: flex;
   justify-content: center;
-  padding-top: 50px;
-  border: 2px solid black;
-
+  padding: 15px 30px 15px 30px;
+  background-color: #0c2b46;
+  text-align: center;
+  align-items: center;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
 }
+
+#Buttons:hover {
+  background-color: #0c2b46;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: #0b74ca;
+  border-radius: 40px;
+}
+#Buttonsss {
+  display: flex;
+  justify-content: center;
+}
+
+

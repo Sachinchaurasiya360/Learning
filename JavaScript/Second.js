@@ -11,3 +11,34 @@
 //     console.log("Step 5: Boil the Maggi for 2 minutes.");
 //     console.log("Step 6: Your Maggi is ready to eat.");
 // }
+
+
+
+function oddeven(num){
+    if(num%2==0){
+        console.log("Even");
+    }
+    else{
+        console.log("Odd");
+    }
+}
+
+oddeven(5);
+
+
+function prime(num){
+    let number=0;
+    for(let i=2;i<num;i++){
+        if(num%i==0){
+            flag=1;
+            break;
+        }
+    }
+    if(number==0){
+        console.log("Prime");
+    }
+    else{
+        console.log("Not Prime");
+    }
+}
+
