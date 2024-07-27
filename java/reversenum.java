@@ -4,7 +4,7 @@ public class reversenum {
     public static void main(String[] args) {
         Scanner input=new Scanner(System.in);
         System.out.println("Enter your contact number");
-        int contact=input.nextInt();
+        int contact = input.nextInt();
 
         int rev=0;
         while (contact>0){
@@ -15,4 +15,4 @@ public class reversenum {
         }
         System.out.println(rev);
     }
-}
+}   

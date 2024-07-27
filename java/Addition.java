@@ -1,4 +1,3 @@
-import java.util.Enumeration;
 import java.util.Scanner;
 
 public class Addition {
@@ -15,6 +14,6 @@ public class Addition {
         int Num3= Num1+Num2;
 
         System.out.println("The addition of "+Num1 + " and "+Num2+" is "+Num3);
-
+        input.close();
     }
 }
