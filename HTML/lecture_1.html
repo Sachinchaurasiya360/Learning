@@ -6,6 +6,19 @@
     <title>Basic HTML </title>
 </head>
 <body>
-    <h1>Hello world</h1>
+
+<input placeholder="Enter firs number" type="number" name="" id="num1"> <br><br>
+<input placeholder="Enter second number" name="" id="num2"> <br><br>
+<button onclick="add()" id=button>Add</button>
 </body>
+
+<script>
+
+    function add() {
+        var num1 = document.getElementById('num1').value;
+        var num2 = document.getElementById('num2').value;
+        var sum = parseInt(num1) + parseInt(num2);
+        document.getElementById('button').innerHTML = sum;
+    }
+</script>
 </html>
